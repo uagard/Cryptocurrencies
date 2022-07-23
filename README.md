@@ -1,13 +1,12 @@
 # Cryptocurrencies
 # Overview
-The goal of this project is to provide a report for an investment bank that is considering launching a new bitcoin investment portfolio. The paper details which cryptocurrencies are available for purchase and how they may be classified to develop a categorization system for this new investment. I'm using Crypto Compare's data to run unsupervised machine learning algorithms in order to finish this project.
+The purpose of this project is to provide a report to an investment bank. This bank will use your infomation in order to consider launching a new bitcoin investment portfolio. This report provides details to show cryptocurrencies are available for purchase. The report also tries to depict how each crytocurrency is classified. This will then be used to develop a categorization system for this new investment. 
 
 # Results
-I began by cleaning up the data to include only active trading cryptocurrencies with a specified algorithm and a comprehensive set of data. As a result, I now have 532 distinct cryptocurrencies. I then constructed a three-dimensional graph to demonstrate how the various cryptocurrencies are organised. Each point has a name as well as the algorithm that was used to produce it. Review_1
+The process begins cleaning up the data to include only active trading cryptocurrencies with a specified algorithm and a comprehensive set of data. Once this was completed I am able to show that there are 532 distinct cryptocurrencies. I then wsa able to place this data into a three-dimensional graph to demonstrate how the various cryptocurrencies are organized. Each point has a name as well as the algorithm that was used to produce it. 
 
-Then I made a two-dimensional graph to demonstrate the link between total coin supply and total coins mined, so you could see how one currency stacks up against the others. The name of the currency is included in each point.
+![Crypto_3D_graph](https://user-images.githubusercontent.com/102105537/180620671-070a86c8-0745-4ccf-9178-0c7a1cf731e9.png)
 
-Review_2
+Next, I create a two-dimensional graph to demonstrate the link between total coin supply and total coins mined. The purpose of creating this is to show the coorealation between one currency against the others.
 
-# Summary
-There are four distinct groups seen in the three-dimensional graph. Most currencies fall into one of two categories, which are clumped together quite closely. The first group has a few distinct currencies that are separated from the others, whereas the second group just has one currency. This demonstrates that many currencies behave similarly, but a few stand out as outliers. These outliers might be overachievers or underachievers, but I'd have to do additional research to find that out. Looking at the total coin supply versus total coins mined graph is one way I can make a connection. The majority of the data points for the two main categories are spread between 0% and 40% of the biggest currency by volume. The group with a few currencies is extremely near to 0% of the largest currency, but the group with only one currency is at 100% since it is the largest. I'd want to do further research on these cryptocurrencies by looking at their history price in order to better understand their performance. This would allow investors to determine how hazardous or reliable their investment is dependent on the many cryptocurrencies they invest in.
+![Crypto_2d_graph](https://user-images.githubusercontent.com/102105537/180620759-55413f02-7dd6-4635-9302-8b346cccbc97.png)
